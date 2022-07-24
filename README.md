@@ -1,0 +1,1 @@
+# Norwegian Translation of Skyrim Together Reborn

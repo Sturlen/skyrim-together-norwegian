@@ -1,0 +1,148 @@
+{
+
+  "COMPONENT": {
+    "CHAT": {
+      "SEND": "Send",
+      "MESSAGE": "Melding",
+      "MESSAGE_TOO_LONG": "Du kan ikke sender en melding på over {{chatMessageLengthLimit}} tegn."
+    },
+    "CONNECT": {
+      "INFO": {
+        "SERVER_ADDRESS": "Koble til en server med den fulle addressen. Bruk formatet <strong>addresse:port</strong>. Port <strong>10578</strong>.",
+        "HELGEN": "Sørg for at du kommet ut av Helgen og introduksjonen før du kobler til noen av serverene."
+      },
+      "ADDRESS": "Addresse",
+      "PASSWORD": "Passord",
+      "SAVE_PASSWORD": "Lagre passord?",
+      "CONNECT": "Koble til",
+      "CANCEL": "Avbryt",
+      "PUBLIC_SERVERS": "Offentlige servere",
+      "ERROR": {
+        "CONNECTION": "Kunne ikke koblte til den valgte serveren. Forsikre deg om at du har skrevet inn den rette addressen og at du ikke har tilkoblingsproblemer.",
+        "VERSION_MISMATCH": "Du kan kun koble deg til servere som kjører samme version av Skyrim Together som deg.",
+        "INVALID_ADDRESS": "Addressen er ikke i et godkjent format."
+      }
+    },
+    "DISCONNECT": {
+      "PROMPT": "Er du sikker på at vil koble fra?",
+      "PROCEED": "Fortsett",
+      "CANCEL": "Avbryt",
+      "ERROR": {
+        "CONNECTION": "Kunne ikke koblte til den valgte serveren. Forsikre deg om at du har skrevet inn den rette addressen og at du ikke har tilkoblingsproblemer.",
+        "VERSION_MISMATCH": "Du kan kun koble deg til servere som kjører samme version av Skyrim Together som deg.",
+        "INVALID_ADDRESS": "Addressen er ikke i et godkjent format."
+      }
+    },
+    "ERROR": {
+      "OK": "Ok"
+    },
+    "NOTIFICATIONS": {
+      "MESSAGE_FROM": "Melding fra"
+    },
+    "PARTY_MENU": {
+      "ACCEPT_INVITE": "Aksepter invitasjonen fra {{name}}.",
+      "LAUNCH_PARTY" : "Lag ny gruppe",
+	  "EXPERIENCE_WARNING": "Det anbefales at du leser spillerguiden på wikien vår, før du legger ut på eventyr. Denne finner du på nettsiden vår: <b>skyrim-together.com</b>. Her er et sammendrag:",
+      "GUIDELINES": {
+        "PARTY": "Når du lager er grupper blir du gruppelederen eller \"verten\" for de andre spillerne.",
+        "PARTY_LEADER_TALK": "Kun gruppelederen har lov til å snakke med viktige NPCer for å fortsette quester.",
+        "PARTY_LEADER_LOOT_QUESTITEMS": "Kun gruppeledere kan plyndre viktige gjenstander relatert til quests.",
+        "KEEP_PARTY_LEADER": "Hold deg til en gruppeledeer for hver gjennomgang av spillet.",
+        "ONE_PARTY_PER_SERVER": "Kun en gruppeleder per server"
+      },
+      "NO_PLAYERS_IN_PARTY": "Det er ingen i gruppen din enda. Inviter dem gjennom spillerlisten!",
+      "TABLE_HEADERS": {
+        "LEVEL": "Lv.",
+        "NAME": "Navn",
+        "LOCATION": "Sted"
+      },
+      "ACTIONS": {
+        "KICK": "Hiv ut",
+        "TELEPORT": "Teleporter",
+        "MAKE_LEADER": "Gjør om til gruppeleder"
+      },
+      "LEAVE_PARTY": "Forlat gruppen"
+    },
+    "PARTY_LIST": {
+      "NO_OTHER_PLAYERS": "Det er stille i fjøset.",
+      "TABLE_HEADERS": {
+        "LEVEL": "Lv.",
+        "NAME": "Navn",
+        "LOCATION": "Sted"
+      },
+      "INVITE": "Inviter"
+    },
+    "PLAYER_MANAGER": {
+      "PLAYER_LIST": "Spillerliste",
+      "PARTY_MENU": "Gruppemeny",
+      "BACK": "Tilbake"
+    },
+    "ROOT": {
+      "CONNECT": "Koble til",
+      "DISCONNECT": "Koble fra",
+      "RECONNECT": "Koble til igjen",
+      "PLAYER_MANAGER": "Spillerforvaltning",
+      "SETTINGS": "Innstillinger",
+      "CONNECTION_IN_PROGRESS": "Tilkobling pågår"
+    },
+    "SERVER_LIST": {
+      "SEARCH": "Søk...",
+      "REFRESH": "Oppfriske",
+      "BACK": "Tilbake",
+      "LOADING": "Laster...",
+      "NO_SERVERS": "Ingen offentlige servere er tilgjengelige.",
+      "HIDE_MISMATCHED_SERVER": "Skjul servere som ikke har en kompatibel versjon",
+      "TABLE_HEADERS": {
+        "NAME": "Servernavn",
+        "PLAYERS": "Spillere",
+        "COUNTRY": "Land",
+        "FAVORITE": "Favoritt"
+      },
+      "JOIN": "Bli med"
+    },
+    "SETTINGS": {
+      "AUDIO": "Lyd",
+      "MUTE_UI": "Demp UI lyder",
+      "UI_VOLUME": "UI volum",
+      "PARTY": "Gruppe",
+      "SHOW_PARTY": "Vis Gruppe",
+      "AUTO_HIDE_PARTY": "Skjul gruppe automatisk",
+      "AUTO_HIDE_PARTY_LENGTH": "Tidsforsinkelse",
+      "PARTY_ANCHOR": "Posisjon",
+      "PARTY_ANCHOR_POSITION": {
+        "TOP_LEFT": "Venstre topp",
+        "TOP_RIGHT": "Høyre topp",
+        "BOTTOM_RIGHT": "Høyre bunn",
+        "BOTTOM_LEFT": "Venstre bunn"
+      },
+      "PARTY_ANCHOR_OFFSET_X": "Horisontal endring",
+      "PARTY_ANCHOR_OFFSET_Y": "Vertikal endring",
+      "LENGTH": "{{length}}s",
+      "DEBUG": "Feilsøking",
+      "SHOW_DEBUG_INFO": "Vis feilsøkingsinformasjon",
+      "BACK": "Tilbake"
+    }
+  },
+  "SERVICE": {
+    "CLIENT": {
+      "CONNECTION_LOST": "Koblingen ble avbrutt, forsøker å koble til på nytt. {{remainingReconnectionAttempt } forsøk igjen."
+    },
+    "GROUP": {
+      "LEVEL_UP": "{{name}} har oppnådd Level {{level}}.",
+      "ALREADY_IN_GROUP": "Du er allerede i en gruppe. For å bli med i en annen, må du forlate din nåværende gruppe først.",
+      "KICK_NO_PARTY_LEADER": "Det er kun gruppelederen som kan hive ut andre medlemer.",
+      "MAKE_LEADER_NO_PARTY_LEADER": "Det er kun gruppelederen som kan utnevne ett annet medlem til å bli gruppeleder."
+    },
+    "ERROR": {
+      "ERRORS": {
+        "WRONG_VERSION": "Denne serveren forventer versjon {{expectedVersion}}, men du er på versjon {{version}}.",
+        "MODS_MISMATCH": "Denne serveren har ModPolicy aktivert.{{mods}}",
+        "MODS_MISMATCH_REMOVE": "Vennligst fjern følgende spillendringer for å bli med:\n{{mods}}",
+        "MODS_MISMATCH_INSTALL": "Vennligst installer følgende spillendringer for å bli med:\n{{mods}}",
+        "CLIENT_MODS_DISALLOWED": "Denne serveren tilatter deg ikke å bruke {{mods}}. Vennligst fjern dem for å bli med.",
+        "WRONG_PASSWORD": "Das eingegebene Passwort ist falsch",
+        "NO_REASON": "Der Server hat die Verbindung ohne Angabe von Gründen verweigert."
+      }
+    }
+  }
+}
